@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+.container{
+    width: 100%;
+    height: 760px;
+    background-color:#121212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#main{
+    display: flex;
+}
+
+#whiteCard{
+    padding: 20px 30px 20px 30px;
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    font-family: 'Aboreto', cursive;
+    font-family: 'Pacifico', cursive;
+    border-radius: 20px 0px 0px 20px;
+}
+
+#whiteCard h1{
+    color: #7f7fb2 ;
+    margin-bottom: 30px;
+    
+}
+#contact{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#greenCard{
+    padding: 20px 30px 20px 30px;
+    background-color:#7f7fb2;
+    width: 400px;
+    height: 500px;
+    font-family: 'Aboreto', cursive;
+    font-family: 'Pacifico', cursive;
+    border-radius: 0px 20px 20px 0px ;
+}
+#greenCard h1{
+    color:white;
+    margin-bottom: 30px;
+}
+ input{
+    width: 100%;    
+    border-radius: 20px;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    
+    background-color:#7f7fb2 ;
+    height: 32px;
+    margin: 10px;
+}
+input[type=text]{
+    padding-left: 20px;
+}
+input::placeholder {
+    color: white;
+    font-size: 15px;
+}
+#message{
+    height: 100px;
+
+}
+#button{
+    width: 20%;
+    border-width: 3px;
+    color: black;
+    font-weight:500;
+    font-size: 15px;
+    background-color: white;
+    cursor: pointer;
+}
+#contact i{
+    font-size: 20px;
+}
+#connect i{
+    font-size: 30px;
+}
